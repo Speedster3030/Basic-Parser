@@ -53,7 +53,7 @@ void parse(string src)
 int print_Sequence(string src, int i)
 {
   int l=src.length();
-  char ch= src[i];
+  char ch= src[i],paran='"';
   while(i<l && (ch==' '||ch=='\n'))
   {
     i++; ch=src[i];
@@ -70,7 +70,7 @@ int print_Sequence(string src, int i)
   }
   if(ch!='"')
   {
-    cout<<"Error:Missing "" in PRINT\n";
+    cout<<"Error:Missing "<<paran<<" in PRINT\n";
     return l;
   }
   string output;
@@ -82,7 +82,7 @@ int print_Sequence(string src, int i)
   }
   if(ch!='"')
   {
-    cout<<"Error:Missing closing ""\n";
+    cout<<"Error:Missing closing "<<paran<<" \n";
     return l;
   }
   i++; ch=src[i];
