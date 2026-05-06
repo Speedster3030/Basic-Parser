@@ -1,6 +1,6 @@
 
 
-    ##A basic "interpreter" that understands
+    ## A basic "interpreter" that understands
     only the PRINT keyword...
 
     After compiling the comp.c file,
