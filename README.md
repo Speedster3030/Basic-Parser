@@ -9,7 +9,10 @@
 
       PRINT("example output")
 
-    get executed.
+    gets executed.
+
+    To execute: 
+      ./comp file.txt
 
     Hope to add more stuff to this later!
     6 May 2026
