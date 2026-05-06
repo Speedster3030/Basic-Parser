@@ -1,6 +1,6 @@
 
 
-    ## A basic "interpreter" that understandsonly the PRINT keyword...
+    # A basic "interpreter" that understandsonly the PRINT keyword...
 
     After compiling the comp.c file,
     any text file containing print 
