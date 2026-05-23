@@ -1,6 +1,6 @@
 
 
-    **A basic interpreter that understands only the PRINT keyword**
+**A basic interpreter that understands only the PRINT keyword**
 
     After compiling the comp.cpp file,
     any text file containing print 
